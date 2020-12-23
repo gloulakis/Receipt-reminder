@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC058CE325739DA400D49FF2 /* ListOfReceipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC058CE225739DA400D49FF2 /* ListOfReceipes.swift */; };
+		CC058CE425739DA400D49FF2 /* ListOfReceipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC058CE225739DA400D49FF2 /* ListOfReceipes.swift */; };
+		CC058CE525739DA400D49FF2 /* ListOfReceipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC058CE225739DA400D49FF2 /* ListOfReceipes.swift */; };
+		CC315A09256C000300E80042 /* Receipt_reminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC315A08256C000300E80042 /* Receipt_reminderApp.swift */; };
+		CC315A0B256C000300E80042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC315A0A256C000300E80042 /* ContentView.swift */; };
+		CC315A0D256C000B00E80042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC315A0C256C000B00E80042 /* Assets.xcassets */; };
+		CC315A10256C000B00E80042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC315A0F256C000B00E80042 /* Preview Assets.xcassets */; };
+		CC315A1B256C000B00E80042 /* Receipt_reminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC315A1A256C000B00E80042 /* Receipt_reminderTests.swift */; };
+		CC315A26256C000B00E80042 /* Receipt_reminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC315A25256C000B00E80042 /* Receipt_reminderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC315A17256C000B00E80042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3159FD256C000300E80042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC315A04256C000300E80042;
+			remoteInfo = "Receipt reminder";
+		};
+		CC315A22256C000B00E80042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3159FD256C000300E80042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC315A04256C000300E80042;
+			remoteInfo = "Receipt reminder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC058CE225739DA400D49FF2 /* ListOfReceipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfReceipes.swift; sourceTree = "<group>"; };
+		CC315A05256C000300E80042 /* Receipt reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Receipt reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC315A08256C000300E80042 /* Receipt_reminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt_reminderApp.swift; sourceTree = "<group>"; };
+		CC315A0A256C000300E80042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC315A0C256C000B00E80042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC315A0F256C000B00E80042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC315A11256C000B00E80042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC315A16256C000B00E80042 /* Receipt reminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Receipt reminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC315A1A256C000B00E80042 /* Receipt_reminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt_reminderTests.swift; sourceTree = "<group>"; };
+		CC315A1C256C000B00E80042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC315A21256C000B00E80042 /* Receipt reminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Receipt reminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC315A25256C000B00E80042 /* Receipt_reminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt_reminderUITests.swift; sourceTree = "<group>"; };
+		CC315A27256C000B00E80042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC315A39256CDEAD00E80042 /* Receipt reminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Receipt reminder.entitlements"; sourceTree = "<group>"; };
+		CCFCA6AA257404B00054A524 /* Info.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Info.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC315A02256C000300E80042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC315A13256C000B00E80042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC315A1E256C000B00E80042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3159FC256C000300E80042 = {
+			isa = PBXGroup;
+			children = (
+				CC315A07256C000300E80042 /* Receipt reminder */,
+				CC315A19256C000B00E80042 /* Receipt reminderTests */,
+				CC315A24256C000B00E80042 /* Receipt reminderUITests */,
+				CC315A06256C000300E80042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC315A06256C000300E80042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC315A05256C000300E80042 /* Receipt reminder.app */,
+				CC315A16256C000B00E80042 /* Receipt reminderTests.xctest */,
+				CC315A21256C000B00E80042 /* Receipt reminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC315A07256C000300E80042 /* Receipt reminder */ = {
+			isa = PBXGroup;
+			children = (
+				CC315A39256CDEAD00E80042 /* Receipt reminder.entitlements */,
+				CC315A08256C000300E80042 /* Receipt_reminderApp.swift */,
+				CC315A0A256C000300E80042 /* ContentView.swift */,
+				CC315A0C256C000B00E80042 /* Assets.xcassets */,
+				CC315A11256C000B00E80042 /* Info.plist */,
+				CC315A0E256C000B00E80042 /* Preview Content */,
+				CC058CE225739DA400D49FF2 /* ListOfReceipes.swift */,
+				CCFCA6AA257404B00054A524 /* Info.json */,
+			);
+			path = "Receipt reminder";
+			sourceTree = "<group>";
+		};
+		CC315A0E256C000B00E80042 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC315A0F256C000B00E80042 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC315A19256C000B00E80042 /* Receipt reminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC315A1A256C000B00E80042 /* Receipt_reminderTests.swift */,
+				CC315A1C256C000B00E80042 /* Info.plist */,
+			);
+			path = "Receipt reminderTests";
+			sourceTree = "<group>";
+		};
+		CC315A24256C000B00E80042 /* Receipt reminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC315A25256C000B00E80042 /* Receipt_reminderUITests.swift */,
+				CC315A27256C000B00E80042 /* Info.plist */,
+			);
+			path = "Receipt reminderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC315A04256C000300E80042 /* Receipt reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC315A2A256C000B00E80042 /* Build configuration list for PBXNativeTarget "Receipt reminder" */;
+			buildPhases = (
+				CC315A01256C000300E80042 /* Sources */,
+				CC315A02256C000300E80042 /* Frameworks */,
+				CC315A03256C000300E80042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Receipt reminder";
+			productName = "Receipt reminder";
+			productReference = CC315A05256C000300E80042 /* Receipt reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC315A15256C000B00E80042 /* Receipt reminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC315A2D256C000B00E80042 /* Build configuration list for PBXNativeTarget "Receipt reminderTests" */;
+			buildPhases = (
+				CC315A12256C000B00E80042 /* Sources */,
+				CC315A13256C000B00E80042 /* Frameworks */,
+				CC315A14256C000B00E80042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC315A18256C000B00E80042 /* PBXTargetDependency */,
+			);
+			name = "Receipt reminderTests";
+			productName = "Receipt reminderTests";
+			productReference = CC315A16256C000B00E80042 /* Receipt reminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC315A20256C000B00E80042 /* Receipt reminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC315A30256C000B00E80042 /* Build configuration list for PBXNativeTarget "Receipt reminderUITests" */;
+			buildPhases = (
+				CC315A1D256C000B00E80042 /* Sources */,
+				CC315A1E256C000B00E80042 /* Frameworks */,
+				CC315A1F256C000B00E80042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC315A23256C000B00E80042 /* PBXTargetDependency */,
+			);
+			name = "Receipt reminderUITests";
+			productName = "Receipt reminderUITests";
+			productReference = CC315A21256C000B00E80042 /* Receipt reminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3159FD256C000300E80042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CC315A04256C000300E80042 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CC315A15256C000B00E80042 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CC315A04256C000300E80042;
+					};
+					CC315A20256C000B00E80042 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CC315A04256C000300E80042;
+					};
+				};
+			};
+			buildConfigurationList = CC315A00256C000300E80042 /* Build configuration list for PBXProject "Receipt reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3159FC256C000300E80042;
+			productRefGroup = CC315A06256C000300E80042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC315A04256C000300E80042 /* Receipt reminder */,
+				CC315A15256C000B00E80042 /* Receipt reminderTests */,
+				CC315A20256C000B00E80042 /* Receipt reminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC315A03256C000300E80042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC315A10256C000B00E80042 /* Preview Assets.xcassets in Resources */,
+				CC315A0D256C000B00E80042 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC315A14256C000B00E80042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC315A1F256C000B00E80042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC315A01256C000300E80042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC315A0B256C000300E80042 /* ContentView.swift in Sources */,
+				CC315A09256C000300E80042 /* Receipt_reminderApp.swift in Sources */,
+				CC058CE325739DA400D49FF2 /* ListOfReceipes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC315A12256C000B00E80042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC058CE425739DA400D49FF2 /* ListOfReceipes.swift in Sources */,
+				CC315A1B256C000B00E80042 /* Receipt_reminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC315A1D256C000B00E80042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC058CE525739DA400D49FF2 /* ListOfReceipes.swift in Sources */,
+				CC315A26256C000B00E80042 /* Receipt_reminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC315A18256C000B00E80042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC315A04256C000300E80042 /* Receipt reminder */;
+			targetProxy = CC315A17256C000B00E80042 /* PBXContainerItemProxy */;
+		};
+		CC315A23256C000B00E80042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC315A04256C000300E80042 /* Receipt reminder */;
+			targetProxy = CC315A22256C000B00E80042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC315A28256C000B00E80042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC315A29256C000B00E80042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC315A2B256C000B00E80042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Receipt reminder/Receipt reminder.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Receipt reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BTN3EQ3QP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Receipt reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Receipt-reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC315A2C256C000B00E80042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Receipt reminder/Receipt reminder.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Receipt reminder/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BTN3EQ3QP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Receipt reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Receipt-reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC315A2E256C000B00E80042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Receipt reminderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Receipt-reminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Receipt reminder.app/Receipt reminder";
+			};
+			name = Debug;
+		};
+		CC315A2F256C000B00E80042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Receipt reminderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Receipt-reminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Receipt reminder.app/Receipt reminder";
+			};
+			name = Release;
+		};
+		CC315A31256C000B00E80042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Receipt reminderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Receipt-reminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Receipt reminder";
+			};
+			name = Debug;
+		};
+		CC315A32256C000B00E80042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Receipt reminderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "home.Receipt-reminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Receipt reminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC315A00256C000300E80042 /* Build configuration list for PBXProject "Receipt reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC315A28256C000B00E80042 /* Debug */,
+				CC315A29256C000B00E80042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC315A2A256C000B00E80042 /* Build configuration list for PBXNativeTarget "Receipt reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC315A2B256C000B00E80042 /* Debug */,
+				CC315A2C256C000B00E80042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC315A2D256C000B00E80042 /* Build configuration list for PBXNativeTarget "Receipt reminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC315A2E256C000B00E80042 /* Debug */,
+				CC315A2F256C000B00E80042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC315A30256C000B00E80042 /* Build configuration list for PBXNativeTarget "Receipt reminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC315A31256C000B00E80042 /* Debug */,
+				CC315A32256C000B00E80042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3159FD256C000300E80042 /* Project object */;
+}
